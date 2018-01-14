@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kola.com.killtb.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="725dp"
+        android:layout_height="349dp"
+        android:src="@drawable/pic"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="74dp"
+        android:layout_marginRight="71dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.423" />
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="194dp"
+        android:layout_height="34dp"
+        android:text="...by alok"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="497dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.785" />
+</android.support.constraint.ConstraintLayout>
